@@ -1,0 +1,152 @@
+#quadro{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#carcaca{
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0.1em 0.1em 0.2em;
+    background-image: linear-gradient(to bottom, rebeccapurple, black);
+    display: flex;
+    justify-content: center;
+   
+}
+#capa{
+    width: 225px;
+    height: 225px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 40px; 
+    color: white; 
+    font-size: x-small;
+    cursor: pointer;
+}
+#linha{
+    height: 0px;
+    width: 225px;
+    border:  1px solid white;
+    cursor: pointer;
+}
+#bolinha{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -5.5px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+#circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 18px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+#triangulo {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 18px solid #000000;
+    margin-left: 104px;
+    margin-top: -33px;
+    cursor: pointer;
+  }
+#pular {
+    width: 0; 
+    height: 0; 
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 16px solid #ffffff;
+    margin-left: 150px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+#voltar{
+    width: 0; 
+    height: 0; 
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent; 
+    border-right:16px solid #ffffff;
+    margin-left: 55px;
+    margin-top: -21.5px; 
+    cursor: pointer;
+}
+#barrae{
+    width: 0;
+    height: 13px;
+    border: 2px solid white;
+    margin-top: -18px;
+    margin-left: 52.5px;
+    cursor: pointer;
+}
+#barrad{
+    width: 0;
+    height: 13px;
+    border: 2px solid white;
+    margin-top: -16px;
+    margin-left: 165px;
+    cursor: pointer;
+}
+#tracinho{
+    height: 0px;
+    width: 15px;
+    border:  1px solid white;
+    margin-left: 213px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+#tracinho2{
+    height: 0px;
+    width: 15px;
+    border:  1px solid rgb(255, 255, 255);
+    margin-left: 213px;
+    margin-top: -7.5px;
+    cursor: pointer;
+}
+#tracinho3{
+    height: 0px;
+    width: 15px;
+    border:  1px solid rgb(255, 255, 255);
+    margin-left: 213px;
+    margin-top: -7.5px;
+    cursor: pointer;
+}
+
+#coracao {
+    margin-top: -5px;
+    background-color: red;
+    height: 12.5px;
+    transform: rotate(-45deg);
+    width: 12.5px;
+    position: relative;
+    cursor: pointer;
+}
+
+#coracao:before,
+#coracao:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 12.5px;
+    position: absolute;
+    width: 12.5px;
+}
+
+#coracao:before {
+    top: -6.25px;
+}
+
+#coracao:after {
+    left: 6.25px;
+}

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: rgb(246, 255, 241);
+
+}
+h1{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 51, 53);
+    width: auto; 
+    height: 40px;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-left: 100px;
+
+}
+
+#manchete{
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1em 0.1em 0.2em;
+
+}
+#noticias{
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1em 0.1em 0.2em;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#noticias1{
+    height: 200px;
+    width: 30%;
+    margin-left: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1em 0.1em 0.2em;
+}
+#noticias2{
+    height: 200px;
+    width: 30%;
+    
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1em 0.1em 0.2em;
+}
+#noticias3{
+    height: 200px;
+    width: 30%;
+    margin-right: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1em 0.1em 0.2em;
+}
+#rodape{
+    height: 180px;
+    width: auto;
+    background-color: rgb(3, 51, 53);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
